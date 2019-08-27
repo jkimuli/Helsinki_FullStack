@@ -1,0 +1,8 @@
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+|
+  The text entered is sent as JSON data in the Request header to the server by specifying
+  Content-Type application/json in the request header
+
+server -> browser: HTTP Response Code 201 Created.
+|
+ Browser stays on the same page where user entered form data and no further requests are made to the server.

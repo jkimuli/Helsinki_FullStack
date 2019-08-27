@@ -1,0 +1,11 @@
+browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/spa
+server-->browser: HTML-code
+browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.css
+server-->browser: main.css
+browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/spa.js
+server-->browser: spa.js
+browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json
+server-->browser: data.json
+
+|
+ The browser executes the spa.js Javascript and uses the returned JSON File ( data.json) from the server to create new HTML elements representing the notes, inserts the elements into the DOM and redraws the UI without making any more requests to the server.

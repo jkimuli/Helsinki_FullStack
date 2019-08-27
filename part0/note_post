@@ -1,0 +1,11 @@
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note
+|
+  The text entered in the form is sent as body data in the Request  header to the server. The request body data is used to create a new note and update the notes array in the server code.
+
+server -> browser: HTTP Redirect Response Code 302. instructs browser to reload url /notes 
+browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/notes
+server-->browser: HTML-code
+browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.css
+server-->browser: main.css
+browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.js
+server-->browser: main.js
