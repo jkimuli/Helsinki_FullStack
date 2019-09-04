@@ -1,0 +1,29 @@
+{
+  "persons": [
+    {
+      "name": "Dyness Shitobelo",
+      "number": "0791448850",
+      "id": 5
+    },
+    {
+      "name": "Grace Sserunkuma",
+      "number": "0791448842",
+      "id": 6
+    },
+    {
+      "name": "Julius Kimuli",
+      "number": "0791448850",
+      "id": 7
+    },
+    {
+      "name": "Ahmed Bandese",
+      "number": "0791448856",
+      "id": 8
+    },
+    {
+      "name": "Nokia Uganda",
+      "number": "0412564634",
+      "id": 9
+    }
+  ]
+}
